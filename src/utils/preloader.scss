@@ -1,0 +1,32 @@
+.body {
+  position: relative;
+}
+.preloadingBlock_el {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 150px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  path {
+    fill: rgb(109 40 217);
+    &:first-child {
+      fill: #ffffff;
+    }
+  }
+  svg {
+      animation: rotate 1s steps(12, end) infinite;
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
