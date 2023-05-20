@@ -1,6 +1,6 @@
 # Github search api user
 
-## Create pet project on react hooks (in progress)
+## Create pet project on react hooks
 
 ### Full stack:
 
