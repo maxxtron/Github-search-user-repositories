@@ -11,3 +11,5 @@
 - Redux-toolkit
 - Tailwindcss / sass
 
+### Example:</br>
+![Илюстрация картинкии](https://files.fm/thumb_show.php?i=eb5wvmj6h)
